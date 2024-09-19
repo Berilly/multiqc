@@ -18,13 +18,13 @@ Most of the work was done with VSCode. I also tested the scripts under Ubuntu 22
 Also found an issue (for some reason os won't work under VSC) which problem does not appear in command line, so comment/uncomment that part according to your preferences.
  
 Also I'd like to track my development, therefore I publish all 3 versions of the script and currently working on a fourth which applies an object oriented solution.
-In these I had three approaches to handle, clean and merge the input data: a list, a dictionary and a pandas DataFrame.
+In these I had three approaches to handle, clean and merge the input data: a list (Nextseq_run_QC.py), a dictionary (Nextseq_run_QC_dict.py) and a pandas DataFrame(Nextseq_run_QC_df.py).
 
 
 ***Description of the scripts***
 
 All scripts have pandas dependencies, therefore you should install them first if you haven't already.
-Plotting script has dash and plotly dependencies.
+Plotting script has dash and plotly dependencies. (dash_fundamentals.py)
 
 The script requires:
 - 4 .xlsx files from the 4 different sets of samples with pre-sequencing data (data structure matches, but everything else is fictional including sample names or projects),
